@@ -4,15 +4,17 @@
   div {
     display: flex;
     align-items: center; 
+   
+    
     gap: 8px;
-     & strong {
-      display: none;
-    }
+   
   }
 
   /*nesting css*/
   div:nth-child(2) {
     margin-inline: auto;
+    
+    
   }
 
   div:nth-child(3) {
